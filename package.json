@@ -1,0 +1,15 @@
+{
+  "name": "zarith-smart-nutrition",
+  "version": "1.0.0",
+  "description": "Smart Nutrition Fruit Advisor",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "electron": "^40.6.0",
+    "electron-packager": "^17.1.2"
+  }
+}

@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Smart Nutrition - Fruit Advisor</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <h1>Smart Nutrition - Fruit Advisor</h1>
+
+    <div class="nav">
+        <a href="index.html">Home</a>
+        <a href="favourites.html">Favourite Fruits</a>
+    </div>
+
+    <!-- Nutrition Analysis -->
+    <h2>Nutrition Analysis</h2>
+    <h3 id="totalFruits"></h3>
+    <p id="averageCalories"></p>
+    <p id="highestSugar"></p>
+
+    <!-- Search Fruit -->
+    <h2>Search Fruit</h2>
+    <div class="update-box">
+        <input type="text" id="searchInput" placeholder="Enter fruit name">
+        <button onclick="searchFruit()">Search</button>
+    </div>
+
+    <!-- Fruit List -->
+    <h2>Fruit List</h2>
+
+    <div id="fruitContainer" class="container">
+        Loading fruits...
+    </div>
+
+    <script src="fruit.js"></script>
+
+</body>
+</html>

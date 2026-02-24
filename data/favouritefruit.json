@@ -1,0 +1,14 @@
+[
+  {
+    "name": "Strawberry",
+    "calories": 29,
+    "sugar": 5,
+    "notes": "Good for breakfast"
+  },
+  {
+    "name": "Durian",
+    "calories": 147,
+    "sugar": 6,
+    "notes": "Smelly fruit"
+  }
+]
